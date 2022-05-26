@@ -67,12 +67,15 @@ header, section, footer, aside, nav, main, article, figure {
   }
   
   .full-width {
-    width: 100vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em;
+    /* width: 100vw;
     position: relative;
     left: 50%;
     right: 50%;
     margin-left: -50vw;
-    margin-right: -50vw;
+    margin-right: -50vw; */
   }
   
   .full-width img {
@@ -180,6 +183,15 @@ header, section, footer, aside, nav, main, article, figure {
       margin-bottom: 6em;
   }
   
+  .trilogy .hero {
+    padding: 0;
+    background: #fff;
+  }
+
+  .logo .hero {
+    padding: 0;
+    background: #fff;
+  }
   
   /* FLEX GRID */
   
