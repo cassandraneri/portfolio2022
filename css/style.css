@@ -24,29 +24,36 @@ header, section, footer, aside, nav, main, article, figure {
     display: block;
   }
   
+  /* BODY */
+  body{
+  background-color: #f7f5f2;
+  }
+
   /* #TYPOGRAPHY  */
   body {
       font-family: Helvetica, Arial, sans-serif;
-      color: rgba(0,0,0,.7);;
+      color: rgba(0,0,0,.8);;
       max-width: 1000px;
       margin: 0 auto;
-      padding: 1em;
+      padding: 10em;
       font-size: 87.5%;
       line-height: 1.5em;
   }
   
   h1 {
-      font-size: 3em;
+      font-size: 4em;
+      font-family: Playfair Display, Helvetica, sans-serif;
+      line-height: 55px;
   }
   
   /* #LINKS */
   a {
-    color: rgba(0,0,0,.4);;
+    color: rgba(0,0,0,.8);;
     text-decoration: none;
   }
   
   a:hover {
-    color: rgba(0,0,0,.6);;
+    color: rgba(0,0,0,.8);;
   }
   
   /* HELPERS */
@@ -62,7 +69,7 @@ header, section, footer, aside, nav, main, article, figure {
   }
   
   .subheader {
-    color: rgba(0,0,0,.5);
+    color: rgba(0,0,0,.8);
     font-weight: normal;
   }
   
@@ -231,7 +238,7 @@ header, section, footer, aside, nav, main, article, figure {
   .thumbgrid a img {
       filter: brightness(1.05);
       transition: all ease-in-out 0.2s;
-      border: 1px solid rgba(255,255,255,0);
+      border: 1px solid rgba(255, 255, 255, 0);
   }
   
   .thumbgrid a:hover img {
