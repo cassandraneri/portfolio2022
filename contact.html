@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio | Contact</title>
 
     <!-- HTML5 -->
@@ -18,7 +20,7 @@
 
 </head>
 
-<body>
+<body class="loadopacity">
 
     <header class="site-header">
             <div class="site-branding">
@@ -41,35 +43,39 @@
             </nav>
     </header>
 
-    <main class="site-main">
-
-        <section class="text-centered fade-and-move-in">
-            
-            <div id="wufoo-z1th6dkg1ip4896" class="mywufooform"></div>
-            <script type="text/javascript">var z1th6dkg1ip4896; (function (d, t) {
-                    var s = d.createElement(t), options = {
-                        'userName': 'cassandraneri',
-                        'formHash': 'z1th6dkg1ip4896',
-                        'autoResize': true,
-                        'height': '497',
-                        'async': true,
-                        'host': 'wufoo.com',
-                        'header': 'show',
-                        'ssl': true
-                    };
-                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-                    s.onload = s.onreadystatechange = function () {
-                        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-                        try { z1th6dkg1ip4896 = new WufooForm(); z1th6dkg1ip4896.initialize(options); z1th6dkg1ip4896.display(); } catch (e) { }
-                    };
-                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-                })(document, 'script');</script>
-
+    <main class="contact_subpage">
+        <section id="contact" class="animate-on-scroll">
+            <div class="contact-container">
+                <div class="form-container">
+                    <div class="left-container">
+                        <div class="left-inner-container">
+                            <h1>Need <span>work</span> done?</h1>
+                            <br>
+                            <h4>Fill out the form and let's chat!</h4>
+                        </div>
+                    </div>
+                    <div class="right-container">
+                        <div class="right-inner-container">
+                            <form target="_blank" action="https://formsubmit.co/cassandraneri.design@gmail.com" method="POST">
+                                <h2 class="lg-view white-header">Contact</h2>
+                                <h2 class="sm-view">Let's Chat</h2>
+                                <p class="white-p">* Required</p>
+                                <input type="text" name="name" placeholder="Full Name *" required />
+                                <input type="email" name="email" placeholder="Email *" required />
+                                <input type="text" name="company" placeholder="Company" />
+                                <input type="phone" name="phone" placeholder="Phone" />
+                                <input type="hidden" name="_next" value="https://youtube.com">
+                                <textarea rows="4" placeholder="Message*" name="message" required></textarea>
+                                <button type="submit" class="button">SUBMIT</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-
     </main>
 
-    <footer class="site-footer">
+    <!-- <footer class="site-footer">
             <nav class="site-navigation">
                 <ul>
                     <li>
@@ -87,7 +93,7 @@
                 </ul>
             </nav>
         
-    </footer>
+    </footer> -->
 
 </body>
 
