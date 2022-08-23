@@ -344,9 +344,9 @@ header, section, footer, aside, nav, main, article, figure {
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0;
   position: relative;
-  max-width: 840px;
+  max-width: 768px;
 }
 
 /* Left contact page */
@@ -367,7 +367,7 @@ textarea {
 
 .send-button {
   margin-top: 15px;
-  height: 34px;
+  height: 45px;
   width: 400px;
   overflow: hidden;
   transition: all .2s ease-in-out;
@@ -375,7 +375,7 @@ textarea {
 
 .alt-send-button {
   width: 400px;
-  height: 34px;
+  height: 45px;
   transition: all .2s ease-in-out;
 }
 
