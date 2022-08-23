@@ -368,13 +368,13 @@ textarea {
 .send-button {
   margin-top: 15px;
   height: 34px;
-  width: 300px;
+  width: 400px;
   overflow: hidden;
   transition: all .2s ease-in-out;
 }
 
 .alt-send-button {
-  width: 300px;
+  width: 400px;
   height: 34px;
   transition: all .2s ease-in-out;
 }
@@ -408,7 +408,7 @@ textarea {
 }
 
 .contact-text {
-  font: 300 18px 'Lato', sans-serif;
+  font: 300 18px Playfair Display, sans-serif;
   letter-spacing: 1.9px;
   color: #bbb;
 }
@@ -494,7 +494,7 @@ textarea {
 }
 
 .copyright {
-  font: 200 14px 'Oswald', sans-serif;
+  font: 200 14px Playfair Display, sans-serif;
   color: #555;
   letter-spacing: 1px;
   text-align: center;
