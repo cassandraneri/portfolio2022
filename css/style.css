@@ -320,7 +320,6 @@ header, section, footer, aside, nav, main, article, figure {
   }
 
 /* CONTACT PAGE */
-
 #contact {
   width: 100%;
   height: 100%;
@@ -330,7 +329,6 @@ header, section, footer, aside, nav, main, article, figure {
 }
 
 .section-header {
-  text-align: center;
   margin: 0 auto;
   padding: 40px 0;
   font: 300 60px Playfair Display, sans-serif;
@@ -340,6 +338,7 @@ header, section, footer, aside, nav, main, article, figure {
 }
 
 .contact-wrapper {
+  align-content: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -349,9 +348,19 @@ header, section, footer, aside, nav, main, article, figure {
   max-width: 768px;
 }
 
-/* Left contact page */
+.contact-wrapper li {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  max-width: 768px;
+}
+
 .form-horizontal {
-  /*float: left;*/
+  /* float: left; */
   max-width: 400px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -365,7 +374,7 @@ textarea {
   letter-spacing: 1px;
 }
 
-.send-button {
+/* .send-button {
   margin-top: 15px;
   height: 45px;
   width: 400px;
@@ -377,20 +386,19 @@ textarea {
   width: 400px;
   height: 45px;
   transition: all .2s ease-in-out;
-}
+} */
 
-.send-text {
+/* .send-text {
   display: block;
   margin-top: 10px;
   font: 700 12px Arial, sans-serif;
   letter-spacing: 2px;
-}
+} */
 
-.alt-send-button:hover {
+/* .alt-send-button:hover {
   transform: translate3d(0px, -29px, 0px);
-}
+} */
 
-/* Begin Right Contact Page */
 .direct-contact-container {
   max-width: 400px;
 }
@@ -435,7 +443,6 @@ textarea {
   color: #fff;
   text-decoration: none;
 }
-
 
 /* Social Media Icons */
 .social-media-list {
