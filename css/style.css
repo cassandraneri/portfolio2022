@@ -30,7 +30,7 @@ header, section, footer, aside, nav, main, article, figure {
   
   /* BODY */
   body {
-  background-color: #f7f5f2;
+  background-color: #f7f5f1;
   padding: 0;
   margin: 0;
   }
@@ -100,7 +100,6 @@ header, section, footer, aside, nav, main, article, figure {
     max-width: 100%;
     height: auto;
     padding: 1em;
-    background-color: #aaa;
   }
   
   img.circular {
@@ -234,19 +233,19 @@ header, section, footer, aside, nav, main, article, figure {
   
   @media (min-width:768px) {
       .thumbgrid a {
-          width: 24.5%;
+          width: 40%;
       }
   }
   
   .thumbgrid a img {
       filter: brightness(1.05);
       transition: all ease-in-out 0.2s;
-      border: 1px solid rgba(255, 255, 255, 0);
+      border: .5px solid rgba(255, 255, 255, 0);
   }
   
   .thumbgrid a:hover img {
       filter: brightness(1);
-      border: 1px solid rgba(0,0,0,.3);
+      border: .5px solid rgba(0,0,0,.3);
   }
   
 /* ANIMATIONS */
@@ -260,6 +259,11 @@ header, section, footer, aside, nav, main, article, figure {
     }
   }
   
+  /* main .thumbgrid {
+    background-color: #555;
+    padding: 2em;
+  } */
+
   main,
   fade-in {
     opacity: 0;
