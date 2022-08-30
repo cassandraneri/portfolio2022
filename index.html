@@ -1,119 +1,104 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <title>My Portfolio | Web Site</title>
+  <meta charset="utf-8">
+  <title>cassandra's portfolio | home</title>
+  
+  <!-- VIEWPORT FOR MOBILE -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
 
-    <!-- HTML5 -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+  <!-- ADOBE FONTS -->
+  <link rel="stylesheet" href="https://use.typekit.net/xan3tuy.css">
 
-    <!-- VIEWPORT FOR MOBILE -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <!-- MAIN CSS FILE -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/style2.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,300i" rel="stylesheet">
 
 </head>
+<body class="home">
 
-<body>
-    <header class="site-header">
-        <div class="site-branding">
-            <h1>
-                <a href="index2.html">Cassandra Neri</a>
-            </h1>
-        </div>
-        <nav class="site-navigation">
-            <ul>
-                <!-- <li class="selected">
-                    <a href="index.html#work" class="selected">Work</a>
-                </li> -->
-                <!-- <li>
-                    <a href="about.html">About</a>
-                </li> -->
-            </ul>
-        </nav>
-    </header>
-
-    <main class="site-main">
-        <section class="hero full-width">
-            <div class="container-iframe">
-                <iframe class="responsive-iframe" width="1920" height="1080"
-                    src="https://www.youtube.com/embed/gNN91pwnwf4" frameborder="0" allow="autoplay; encrypted-media"
-                    allowfullscreen></iframe>
-            </div>
-            <!-- <img src="img/placeholder-4x1-hero-web.jpg" alt="placeholder" class="scale-with-grid" /> -->
-        </section>
-
+    <header class="site-header navcolor">
         <div class="container">
-        <section>
-            <h1>Book Trilogy Design</h1>
-            <h3 class="subheader">Short Description of the Project</h3>
-            <div class="row">
-                <div class="two-thirds column">
-                    <p>I was tasked with designing book covers for three of David Sedaris's ingenious short stories. I
-                        began with designing the first book cover for the story Untamed, which was on making friends
-                        with animals. I then repeated my creative process to create the second and third book covers,
-                        considering cohesiveness and viability for a complete trilogy.</p>
-                </div>
-                <div class="one-third column">
-                    <p>
-                        <strong>Services:</strong> Print Design, Typesetting
-                        <br />
-                        <strong>Software:</strong> InDesign, Photoshop, After Effects, Premiere Pro
-                    </p>
-                </div>
+            <div class="site-branding">
+                <h1>
+                    <a href="index2.html">Cassandra Neri</a>
+                </h1>
             </div>
-        </section>
+            <nav class="site-navigation">
+                <ul class="nav">
+                    <!-- <li>
+                        <a href="index.html#work">Work</a>
+                    </li> -->
+                    <li>
+                      <a href="about.html">ABOUT</a>
+                  </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- END CONTAINER -->
+    </header>
+    
+<section>
 
-        <section>
-            <img src="img/bookcoverlayout1.webp" alt="placeholder" class="scale-with-grid" />
-            <img src="img/bookcoverlayout2.webp" alt="placeholder" class="scale-with-grid" />
-            <img src="img/bookcoverlayout3.webp" alt="placeholder" class="scale-with-grid" />
-            <img src="img/booktrilogy.webp" alt="placeholder" class="scale-with-grid" />
-        </section>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">  
+        <img src="img/Cass_Neri_BookTrilogy.jpg" class="homepageimg">
+        <a href="booktrilogy.html" button class="homepagebutton">Learn more</a></button>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/Cass_Neri_Cover.jpg" class="homepageimg">
+        <a href="layouts.html" button class="homepagebutton">Learn more</a></button>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/Cass_Neri_Stamps.jpg" class="homepageimg">
+        <a href="stamps.html" button class="homepagebutton">Learn more</a></button>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/Canvas-Tote-Bag-MockUp.jpg" class="homepageimg">
+        <a href="logo.html" button class="homepagebutton">Learn more</a></button>
+      </div>
 
-        <section id="work" class="text-centered">
-
-            <div class="thumbgrid">
-                <a href="booktrilogy.html">
-                    <img src="img/Cass_Neri_BookTrilogy2.jpg" alt="Image of Book Trilogy" />
-                </a>
-                <a href="layouts.html">
-                    <img src="img/Cass_Neri_Cover2.jpg" alt="Image of Typography Book Cover" />
-                </a>
-                <a href="stamps.html">
-                    <img src="img/Cass_Neri_Stamps2.jpg" alt="Image of USPS Postage Stamps" />
-                </a>
-                <a href="logo.html">
-                    <img src="img/Canvas-Tote-Bag-MockUp2.jpg" alt="Image of Tote Bag with Jaipur Logo" />
-                </a>
-            </div>
-            <!-- END CONTAINER -->
-        </section>
     </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+  </div>
 
-    </main>
+</section>
 
-    <footer class="site-footer">
-        <nav class="site-navigation">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <!-- <li>
-                    <a href="index.html#work">Work</a>
-                </li> -->
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-            </ul>
-        </nav>
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <script src="js/script.js"></script>
 
-    </footer>
-
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
 </body>
-
 </html>
