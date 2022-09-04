@@ -31,12 +31,13 @@ header, section, footer, aside, nav, main, article, figure {
   /* BODY */
   .body, .aboutpage {
   background-color: #f7f5f1;
-  padding: 0;
-  margin: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2em;
   }
 
   /* #TYPOGRAPHY  */
-  .body {
+  .body, p {
       font-family: new-hero, sans-serif;
       font-weight: 400;
       font-style: normal;
@@ -207,7 +208,7 @@ body {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 1em;
+  padding: 0 2em;
 }
 
   /* MEDIA QUERIES */
@@ -543,10 +544,6 @@ h1, h2, h3, h4, h5, h6{
       align-items: center;
   }
   
-  /* .thumbgrid a {
-      width: 49.5%;
-  } */
-  
   @media (min-width:768px) {
       .thumbgrid a {
           width: 40%;
@@ -652,7 +649,6 @@ h1, h2, h3, h4, h5, h6{
   font: 300 60px Playfair Display, sans-serif;
   color: rgba(0,0,0,.8);
   text-transform: uppercase;
-  letter-spacing: 6px;
   max-width: 30em;
 }
 
@@ -687,9 +683,10 @@ i.fa.fa-map-marker.fa-2x, i.fa.fa-phone.fa-2x, i.fa.fa-envelope.fa-2x {
 }
 
 .contact-text {
-      font-family: new-hero, sans-serif;
-      font-weight: 400;
-      font-style: normal;
+  font-family: new-hero, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 87.5%;
 }
 
 .contact-text a {
