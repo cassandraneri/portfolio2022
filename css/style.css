@@ -205,9 +205,9 @@ body {
 }
 
 .container {
-  width: 92%;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 0 4%;
+  padding: 0 1em;
 }
 
   /* MEDIA QUERIES */
@@ -843,7 +843,3 @@ background-color:#FF5722;
 background-color:#607D8B;
 }
 
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
