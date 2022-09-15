@@ -265,7 +265,7 @@ body {
 /* SMALL */
 body { font-size: 87.5%; }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     body { font-size: 100%; }
 }
 
