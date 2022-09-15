@@ -199,28 +199,40 @@ form input[type="submit"]:hover {
 
 .homepagebutton {
   z-index: 100;
-  margin-top: 75vh;
-  margin-left: 1em;
+  position: absolute;
+  bottom: 8vh;
 }
 
 .homepagebutton2 {
   z-index: 100;
-  margin-top: 5vh;
-  margin-left: 52em;
+  position: absolute;
+  right: 16vw;
+  bottom: 20vh;
 }
 
 .homepagebutton3 {
   z-index: 100;
-  margin-top: -50vh;
-  margin-left: 1em;
+  position: absolute;
+  right: 21vw;
+  bottom: 20vh;
 }
 
 .homepagebutton4 {
   z-index: 100;
-  margin-top: 5vh;
-  margin-left: 45em;
+  position: absolute;
+  right: 22vw;
+  bottom: 20vh;
 }
-  
+
+@media (max-width: 768px) {
+  .homepagebutton, .homepagebutton2, .homepagebutton3, .homepagebutton4 {
+  z-index: 100;
+  position: absolute;
+  right: auto;
+  bottom: 6vh;
+  }
+}
+
   /* LAYOUT */
 
 body {
@@ -840,6 +852,7 @@ html, body.home {
   background-size: contain;
   object-fit: cover; /*cover video background */
   margin: 0;
+  /* z-index: 1; */
 }  
   
 body.home {
