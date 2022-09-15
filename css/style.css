@@ -37,8 +37,6 @@ header, section, footer, aside, nav, main, article, figure {
   /* #TYPOGRAPHY  */
   .body, p {
       font-family: new-hero, sans-serif;
-      font-weight: 400;
-      font-style: normal;
       color: rgba(0,0,0,.8);
       max-width: 1000px;
       margin: 0 auto;
@@ -73,6 +71,7 @@ header, section, footer, aside, nav, main, article, figure {
     top: -9999px;
     left: -9999px;
   }
+  
   .subheader {
     color: rgba(0,0,0,.8);
     font-weight: normal;
@@ -245,6 +244,14 @@ body {
   padding: 0 5em;
 }
 
+@media (max-width: 767px) {
+  .home-container {
+  display: list-item;
+  justify-content: space-between;
+  padding: 0 5em;
+  }
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -260,6 +267,7 @@ body { font-size: 87.5%; }
 
 @media (min-width: 768px) {
     body { font-size: 100%; }
+    h1 { font-size: 87.5%; }
 }
 
 @media (min-width: 1250px) {
